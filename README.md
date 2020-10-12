@@ -102,6 +102,7 @@ subscription_id = "aa9d8c9f-34c2-6262-89ff-3c67527c1b22"
 client_id = "7e9c2cce-8bd4-887d-b2b0-90cd1e6e4781"
 client_secret = ":+O$+adfafdaF-?%:.?d/EYQLK6po9`|E<["
 tenant_id = "8b6817d9-f209-2071-8f4f-cc03332847cb"
+```
 
 
 **Step 5**  Edit the terraform.tfvars file to include your source network prefix
