@@ -21,7 +21,8 @@ Automated Terraform deployment of Velociraptor in Azure!  Automated deployment o
 * Server Subnet (Velociraptor):  10.100.1.0/24
 * User Subnet (Windows 10 VM):  10.100.30.0/24
 * Velociraptor Internal IP:  10.100.1.4
-* Windows 10 VM Internal IP:  Dynamic
+* Windows 10 VM Internal IP:  10.100.30.11
+* Public IP Addresses:  Dynamic Azure allocation for both Velociraptor and Windows 10 VM
 
 # Remote Access (After Deployment)
 * Windows 10 VM:  Change into the modules/win10-vm1 directory and view contents of hosts.cfg.  The second line should show the IP address of the Windows 10 VM.  Just RDP to it with Admin credentials above.
