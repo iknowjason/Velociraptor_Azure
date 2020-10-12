@@ -105,7 +105,7 @@ tenant_id = "8b6817d9-f209-2071-8f4f-cc03332847cb"
 ```
 
 
-**Step 5**  Edit the terraform.tfvars file to include your source network prefix
+**Step 5:**  Edit the terraform.tfvars file to include your source network prefix
 Edit the following file:  deploy/terraform.tfvars
 At the bottom of the file, uncomment the "src_ip" variable and populate it with your correct source IP address.  If you don't do this, the Azure NSGs will open up your two VMs to the public Internet.  Below is exactly where the variable should be uncommented and an example of what it looks like:
 ```
@@ -116,7 +116,7 @@ At the bottom of the file, uncomment the "src_ip" variable and populate it with 
 src_ip = "192.168.87.4"
 ```
 
-**Step 6** Run the commands to initialize terraform and apply the resource plan
+**Step 6:** Run the commands to initialize terraform and apply the resource plan
 
 ```
 $ cd Velociraptor_Azure/deploy
