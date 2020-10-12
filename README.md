@@ -84,7 +84,7 @@ $ git clone https://github.com/iknowjason/Velociraptor_Azure.git
 **Step 4:** Using your favorite text editor, edit the terraform.tfvars file for the Azure resource provider matching your Azure Service Principal credentials
 
 ```
-cd PurpleCloud/deploy
+cd Velociraptor_Azure/deploy
 vi terraform.tfvars
 ```
 
