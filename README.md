@@ -129,6 +129,6 @@ This should start the Terraform automated deployment plan
 
 # Shutting down / cleaning up
 ```
-$ cd Velociraptor_Azure\deploy
+$ cd Velociraptor_Azure/deploy
 $ ./destroy.sh
 ```
