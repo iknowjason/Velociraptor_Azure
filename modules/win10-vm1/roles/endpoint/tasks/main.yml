@@ -10,11 +10,5 @@
     executable: cmd
   register: results
 
-#- name:
-#  replace:
-#    path: ${path.module}/files/config2.yaml
-#    regexp: "  pinned_server_name: VelociraptorServer"
-#    replace: "  use_self_signed_ssl: true\n  pinned_server_name: VelociraptorServer"
-
 - debug:
     var: results.stdout_lines 
