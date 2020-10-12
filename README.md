@@ -1,5 +1,5 @@
 # Overview:  Velociraptor_Azure
-Automated deployment of one Velociraptor server with one Windows 10 endpoint in Azure VM infrastructure.  A collection of Terraform and Ansible scripts that automatically deploys a small Velociraptor R&D lab.
+Automated Terraform deployement of Velociraptor in Azure!  Automated deployment of one Velociraptor server with one Windows 10 endpoint in Azure VM infrastructure.  A collection of Terraform and Ansible scripts that automatically deploys a small Velociraptor R&D lab.
 
 # Quick Fun Facts:
 * Deploys one (1) Ubuntu Linux Velociraptor Server and one (1) Windows 10 Professional endpoint
