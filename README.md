@@ -110,10 +110,10 @@ tenant_id = "8b6817d9-f209-2071-8f4f-cc03332847cb"
 Edit the following file:  deploy/terraform.tfvars
 At the bottom of the file, uncomment the "src_ip" variable and populate it with your correct source IP address.  If you don't do this, the Azure NSGs will open up your two VMs to the public Internet.  Below is exactly where the variable should be uncommented and an example of what it looks like:
 ```
-#Set variable below for IP address prefix for white listing Azure NSG
-#ncomment; otherwise, all of the public Internet will be permitted
-#ttps://ifconfig.me/
-#curl https://ifconfig.me
+# Set variable below for IP address prefix for white listing Azure NSG
+# uncomment variable below; otherwise, all of the public Internet will be permitted
+# https://ifconfig.me/
+# curl https://ifconfig.me
 src_ip = "192.168.87.4"
 ```
 
