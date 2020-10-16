@@ -14,7 +14,8 @@ Automated deployment of one Velociraptor server with one registered Windows 10 e
 * Terraform VM modules are flexible, allowing you to add your own new VMs in Azure
 * Velociraptor server service is installed via Debian package
 * Terraform templates write Ansible Playbook configuration, which can be customized
-* Deployment Time:  Approximately 8 minutes and 50 seconds
+* **Deployment Time:**  Approximately 8 minutes and 50 seconds
+* **Approximate Monthly Cost:**  $57.91 per month
 * Azure Network Security Groups (NSGs) can whitelist your source prefix, for added security
 * The following ports are opened through Azure NSGs for ingress TCP traffic:  RDP (3389), WinRM HTTP (5985), WinRM HTTPS (5986), SSH (22), Velociraptor GUI (8889), Velociraptor Agent (8000)
 
