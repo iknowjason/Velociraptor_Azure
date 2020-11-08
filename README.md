@@ -15,6 +15,7 @@ Automated deployment of one Velociraptor server with one registered Windows 10 e
 * Automatically registers the endpoint to the Velociraptor server with TLS self-signed certificate configuration
 * Uses Terraform templates to automatically deploy in Azure with VMs
 * Terraform VM modules are flexible, allowing you to add your own new VMs in Azure
+* Windows endpoint includes Atomic Red Team (ART), Elastic Detection RTA, and APTSimulator
 * Velociraptor server service is installed via Debian package
 * Terraform templates write Ansible Playbook configuration, which can be customized
 * **Deployment Time:**  Approximately 8 minutes and 50 seconds
