@@ -152,7 +152,10 @@ From a powershell session, simply run:  ```PS C:\ > Invoke-AtomicTest <ATOMIC_TE
 The atomics are in the main project directory path of ```C:\terraform\ART\atomic-red-team-master\atomics```.  Browse through them to find which atomic test you want to run.
 Example of running T1007:  
 ```PS C:\Users\VAdmin> Invoke-AtomicTest T1007 -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
+
 [1] https://github.com/redcanaryco/atomic-red-team
+
 [2] https://github.com/redcanaryco/invoke-atomicredteam
+
 2.  Elastic Detection Rules RTA (Red Team Attacks) scripts
 3.  APTSimulator
