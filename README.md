@@ -146,11 +146,16 @@ $ ./destroy.sh
 # Running APT Simulator Tools
 This project includes three security tools to run APT simulations for generating forensic artifacts in an automated way.  Here is a quick walkthrough on the three tools that are automatically deployed.
 1.  Atomic Red Team (ART)
-The Atomic Red Team scripts are downloaded from the official Github repo [1] and the Invoke-AtomicRedTeam execution framework is automatically downloaded and imported from the following repo [2].  This allows you to more easily run atomic tests and the modules are imported into the powershell session everytime you launch a powershell session.  This is controlled from the following powershell environment script:  ```C:\Users\VAdmin\Documents\WindowsPowerShell\Microsoft.Powershell_profile.ps1```
+The Atomic Red Team scripts are downloaded from the official Github repo [1] and the Invoke-AtomicRedTeam execution framework is automatically downloaded and imported from the following repo [2].  This allows you to more easily run atomic tests and the modules are imported into the powershell session everytime you launch a powershell session.  This is controlled from the following powershell environment script:
+
+```C:\Users\VAdmin\Documents\WindowsPowerShell\Microsoft.Powershell_profile.ps1```
+
 Now that this is out of the way, let's show how to run an atomic test for ART!
+
 From a powershell session, simply run:  ```PS C:\ > Invoke-AtomicTest <ATOMIC_TEST> -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
 The atomics are in the main project directory path of ```C:\terraform\ART\atomic-red-team-master\atomics```.  Browse through them to find which atomic test you want to run.
-Example of running T1007:  
+Example of running T1007: 
+
 ```PS C:\Users\VAdmin> Invoke-AtomicTest T1007 -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
 
 [1] https://github.com/redcanaryco/atomic-red-team
