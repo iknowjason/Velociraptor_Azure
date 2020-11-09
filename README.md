@@ -143,7 +143,7 @@ $ cd Velociraptor_Azure/deploy
 $ ./destroy.sh
 ```
 
-# Running APT Simulator Tools
+# Running APT Simulation Tools
 This project includes three security tools to run APT simulations for generating forensic artifacts in an automated way.  Here is a quick walkthrough on the three tools that are automatically deployed.
 1.  Atomic Red Team (ART)
 The Atomic Red Team scripts are downloaded from the official Github repo [1] and the Invoke-AtomicRedTeam execution framework is automatically downloaded and imported from the following repo [2].  This allows you to more easily run atomic tests and the modules are imported into the powershell session everytime you launch a powershell session.  This is controlled from the following powershell environment script:
@@ -168,4 +168,20 @@ Example of running T1007:
 [2] https://github.com/redcanaryco/invoke-atomicredteam
 
 2.  Elastic Detection Rules RTA (Red Team Attacks) scripts
+In June of 2020, Elastic opens sourced their detection rules, including Python attack scripts through the Red Team Automation (RTA) project.  The following repo [3] is automatically downloaded and extracted using Terraform and Ansible scripts.  To run them, launch a cmd or powershell session and use python to run each test from the following directory:
+
+Change into the directory:  
+
+```C:\terraform\Elastic_Detections\detection-rules-main```
+
+Run each python script test that you wish.  Each test is in the RTA directory and you invoke the test by removing the *.py (TTPs are referenced as a name by just removing the last *.py from the script):
+
+```PS C:\terraform\Elastic_Detections\detection-rules-main> python -m rta <TTP_NAME>```
+
+Example of 'smb_connection' ttp:
+
+```PS C:\terraform\Elastic_Detections\detection-rules-main> python -m rta smb_connection```
+
+You can browse all TTPs in the 'rta' sub-directory
+
 3.  APTSimulator
