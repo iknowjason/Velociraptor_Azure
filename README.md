@@ -144,7 +144,8 @@ $ ./destroy.sh
 ```
 
 # Running APT Simulation Tools
-This project includes three security tools to run APT simulations for generating forensic artifacts in an automated way.  Here is a quick walkthrough on the three tools that are automatically deployed.
+This project includes three security tools to run APT simulations for generating forensic artifacts in an automated way.  Here is a quick walkthrough on the three tools that are automatically deployed.  To test efficacy of the detection solution, it might be a good idea to disable Windows Defender real-time protection setting.
+
 1.  Atomic Red Team (ART)
 The Atomic Red Team scripts are downloaded from the official Github repo [1] and the Invoke-AtomicRedTeam execution framework is automatically downloaded and imported from the following repo [2].  This allows you to more easily run atomic tests and the modules are imported into the powershell session everytime you launch a powershell session.  This is controlled from the following powershell environment script:
 
