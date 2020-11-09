@@ -152,8 +152,13 @@ The Atomic Red Team scripts are downloaded from the official Github repo [1] and
 
 Now that this is out of the way, let's show how to run an atomic test for ART!
 
-From a powershell session, simply run:  ```PS C:\ > Invoke-AtomicTest <ATOMIC_TEST> -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
+From a powershell session, simply run:
+```PS C:\ > Invoke-AtomicTest <ATOMIC_TEST> -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
+
+
 The atomics are in the main project directory path of ```C:\terraform\ART\atomic-red-team-master\atomics```.  Browse through them to find which atomic test you want to run.
+
+
 Example of running T1007: 
 
 ```PS C:\Users\VAdmin> Invoke-AtomicTest T1007 -PathToAtomicsFolder C:\terraform\ART\atomic-red-team-master\atomics```
