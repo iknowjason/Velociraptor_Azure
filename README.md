@@ -171,7 +171,7 @@ Example of running T1007:
 
 **2.  Elastic Detection Rules RTA (Red Team Attacks) scripts**
 
-In June of 2020, Elastic opens sourced their detection rules, including Python attack scripts through the Red Team Automation (RTA) project.  The following repo [3] is automatically downloaded and extracted using Terraform and Ansible scripts.  To run them, launch a cmd or powershell session and use python to run each test from the following directory:
+In June of 2020, Elastic open sourced their detection rules, including Python attack scripts through the Red Team Automation (RTA) project.  The following repo [3] is automatically downloaded and extracted using Terraform and Ansible scripts.  To run them, launch a cmd or powershell session and use python to run each test from the following directory:
 
 Change into the directory:  
 
