@@ -29,7 +29,7 @@
       args:
         chdir: /home/vadmin
 
-    - name: Add the self-signed certificate paramter for the client configuration
+    - name: Add the self-signed certificate parameter for the client configuration
       replace:
         path: /home/vadmin/server.config.yaml 
         regexp: "  pinned_server_name: VelociraptorServer"
