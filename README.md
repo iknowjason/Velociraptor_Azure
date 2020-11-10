@@ -8,7 +8,7 @@ https://www.velocidex.com/about/
 Automated deployment of one Velociraptor server with one registered Windows 10 endpoint in Azure VM infrastructure.  A collection of Terraform and Ansible scripts that automatically (and quickly) deploys a small Velociraptor R&D lab.
 
 # Update:  November, 2020:
-* Added some attack simulation tools, including:  Atomic Red Team (ART), APTSimulator, and Elastic Detection Rules (RTA python scripts)
+* Added some attack simulation tools, including:  Atomic Red Team (ART), APTSimulator, and Elastic Detection Rules (RTA python scripts).  See the "Running APT Simulation Tools" section at the bottom of this Readme.
 
 # Quick Fun Facts:
 * Deploys one (1) Ubuntu Linux Velociraptor Server and one (1) Windows 10 Professional endpoint
